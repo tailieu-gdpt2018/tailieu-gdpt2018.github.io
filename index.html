@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tài Liệu GDPT 2018" />
+  <meta property="og:description" content="Góp phần dạy và học hiệu quả!" />
+  <meta property="og:url" content="https://tailieu-gdpt2018.github.io/" />
+  <meta property="og:image" content="https://tailieu-gdpt2018.github.io/assets/img/favicon.png" />
+  
+  <title>Tài Liệu GDPT 2018</title>
+  <meta content="Góp phần dạy và học hiệu quả!" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">  
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">  
+  <!-- JS Font File -->
+  <script src="assets/vendor/font/kit_fontawesome.js" crossorigin="anonymous"></script>  
+</head>
+
+<body>
+  <nav id="navbarBDS" class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html"><span style="color: #945b05;">TaiLieu</span><span style="color: #2717F1;">GDPT</span><span style="color: #f13817;">2018</span></a>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">        
+      </div>
+    </div>
+  </nav>
+  <!-- Form tìm kiếm -->
+  <div class="form-search">
+    <!-- <form class="form-a"> -->
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="Type">Cấp Lớp</label>
+            <select class="form-control form-select form-control-a" id="Type">
+              <option value="0">Tất cả</option>
+              <option value="1">Mầm Non</option>
+              <option value="2">Lớp 1</option>
+              <option value="3">Lớp 2</option>
+              <option value="4">Lớp 3</option>
+              <option value="5">Lớp 4</option>
+              <option value="6">Lớp 5</option>
+              <option value="7">Lớp 6</option>
+              <option value="8">Lớp 7</option>
+              <option value="9">Lớp 8</option>
+              <option value="10">Lớp 9</option>
+              <option value="11">Lớp 10</option>
+              <option value="12">Lớp 11</option>
+              <option value="12">Lớp 12</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2">
+          <div class="form-group mt-3">
+            <label class="pb-2" for="city">Sắp xếp</label>
+            <select class="form-control form-select form-control-a" id="city">
+              <option value="0">Mới nhất</option>
+              <option value="1">Cũ nhất</option>
+            </select>
+          </div>
+        </div>        
+        <div class="col-md-12">
+          <button onclick="showResultOfSearch()" class="btn btn-b"><i class="bi bi-search"></i> Tìm Kiếm</button>          
+        </div>
+      </div>
+    <!-- </form> -->
+  </div>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-main-content">
+        <div class="modal-container">
+          <div id="myModalVlog"></div>          
+          <div id="myModalContent"></div>
+        </div>        
+      </div>
+    </div>    
+  </div>
+  <main id="main">    
+    <!-- ======= Services Section ======= -->
+    <section class="section-services section-t8">
+      <div class="container">
+        <div id="rowRenderTitle" class="row">          
+        </div>
+        <div id="rowRenderInfo">          
+        </div>
+        <div id="rowRenderPagination" class="pagination">                
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+  </main><!-- End #main -->
+  <!-- ======= Footer ======= -->  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="contractInfo" class="socials-a">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+  <div id="preloader"></div>
+  <a href="#main" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- TinHocViVu JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tailieu_gdpt_2018.js"></script>
+  <script src="assets/js/tailieu_gdpt_2018_1.js"></script>  
+</body>
+<script src="assets/js/tailieu_gdpt_2018_scroll.js"></script>
+</html>
